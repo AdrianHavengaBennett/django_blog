@@ -1,1 +1,1 @@
-web:gunicorn blog.wsgi:application server -p $PORT
+web gunicorn blog.wsgi:application
